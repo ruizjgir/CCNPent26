@@ -270,8 +270,9 @@ address-family ipv6
  neigh b:3:4:b::3 activate
  neigh b:2:4:b::2 activate
  neigh b:1:4:b::4 activate
+ network 8:8:8:8:8888/128
  network b55::1/128
- network 2001:4860:4860::/64
+ network 2001:4860:4860::/128
  network b:3:4:b::/64
  network b:2:4:b::/64
  network b:1:4:b::/64
@@ -1899,6 +1900,7 @@ R1#sr os | inc 4.4
 O E2     4.4.0.0 [110/20] via 10.1.1.2, 00:02:29, Ethernet1/0
 O IA     4.4.4.0 [110/31] via 10.1.1.2, 00:00:07, Ethernet1/0
 R1#
+
 
 
 
